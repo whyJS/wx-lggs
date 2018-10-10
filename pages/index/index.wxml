@@ -1,0 +1,113 @@
+<!--index.wxml-->
+<!-- 首页轮播 -->
+<view class="sliderWrapper">
+  <swiper
+    autoplay="true">
+    <block wx:for="{{imgUrls}}" wx:key="index">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" />
+      </swiper-item>
+    </block>
+  </swiper>
+</view>
+<!-- 首页topbar -->
+<view class="topbar">
+    <view bindtap="qyj" class="topbar-item">
+      <image src="./topbar/top-1.png"></image>
+      <text>趣养鸡</text>
+    </view>
+    <view class="topbar-item">
+      <image src="./topbar/top-2.png"></image>
+      <text>趣分享</text>
+    </view>
+    <view class="topbar-item">
+      <image src="./topbar/top-3.png"></image>
+      <text>活动</text>
+    </view>
+    <view class="topbar-item">
+      <image src="./topbar/top-4.png"></image>
+      <text>十元特卖</text>
+    </view>
+    <view class="topbar-item">
+      <image src="./topbar/top-5.png"></image>
+      <text>专享</text>
+    </view>
+    <view class="topbar-item">
+      <image src="./topbar/top-6.png"></image>
+      <text>领券</text>
+    </view>
+    <view class="topbar-item">
+      <image src="./topbar/top-7.png"></image>
+      <text>定制</text>
+    </view>
+    <view class="topbar-item">
+      <image src="./topbar/top-8.png"></image>
+      <text>今日爆款</text>
+    </view>
+</view>
+<!-- 首页新闻 -->
+<view class="xinwen">
+  <image src="./topbar/x1.png" class="img1"></image>
+  <view class="xinwencontent">
+      <image src="./topbar/x2.png" class="img2"></image>
+      <swiper vertical="true" class="xinwenslider"
+        autoplay="true">
+       
+          <swiper-item wx:for="{{xinwenlist}}" wx:key="index" class="xinwenslider-item">
+            <text>{{item}}</text>
+          </swiper-item>
+      
+      </swiper>
+      <image src="./topbar/x3.png" class="img3"></image>
+      <view class="chakan">查看</view>
+  </view>
+</view>
+<!-- 首页列表 -->
+<view class="homelist">
+  <view class="v1">美食美酒</view>
+  <view class="v2">拉勾公社与京都酒厂签约成功值啊</view>
+  <image class="listimg" src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"></image>
+</view>
+<view class="homelist">
+  <view class="v1">美食美酒</view>
+  <view class="v2">拉勾公社与京都酒厂签约成功值啊</view>
+  <image class="listimg" src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"></image>
+</view>
+<view class="homelist">
+  <view class="v1">美食美酒</view>
+  <view class="v2">拉勾公社与京都酒厂签约成功值啊</view>
+  <image class="listimg" src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"></image>
+</view>
+<view class="homelist">
+  <view class="v1">美食美酒</view>
+  <view class="v2">拉勾公社与京都酒厂签约成功值啊</view>
+  <image class="listimg" src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"></image>
+</view>
+<view class="homelist">
+  <view class="v1">美食美酒</view>
+  <view class="v2">拉勾公社与京都酒厂签约成功值啊</view>
+  <image class="listimg" src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"></image>
+</view>
+<view class="homelist">
+  <view class="v1">美食美酒</view>
+  <view class="v2">拉勾公社与京都酒厂签约成功值啊</view>
+  <image class="listimg" src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"></image>
+</view>
+<view class="homelist">
+  <view class="v1">美食美酒</view>
+  <view class="v2">拉勾公社与京都酒厂签约成功值啊</view>
+  <image class="listimg" src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"></image>
+</view>
+
+
+
+
+<!-- <view data-index="{{item}}" bindtap="tapName" class="listItem" wx:for="{{list}}" wx:key="index">
+ {{item}}:{{index}}
+</view>
+<view class='loading' wx:if="{{hasMore}}">
+  <image model="aspectFit" src="../../common/imgs/loading/loading.gif"></image>
+</view>
+<view class='loading' wx:if="{{!hasMore}}">
+  没有更多了
+</view> -->

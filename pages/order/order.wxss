@@ -1,0 +1,34 @@
+/* pages/order/order.wxss */
+.car{
+  width: 100%;
+  box-sizing: border-box;
+}
+.car .car_head{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 24rpx 24rpx 24rpx 26rpx;
+  box-sizing: border-box;
+}
+.car .car_head .car_head_icon{
+  border: 2rpx solid #bababa;
+  border-radius: 50%;
+}
+.car .car_head .car_head_v1{
+  font-size: 28rpx;
+  color: #000;
+  padding-left: 24rpx;
+  padding-right: 14rpx;
+}
+.car .car_head .car_head_image{
+  width: 8rpx;
+  height: 16rpx;
+}
+.car .car_head .car_head_v2{
+  font-size: 26rpx;
+  color: #EB4D3C;
+  padding-left: 24rpx;
+  padding-right: 14rpx;
+  flex: 1;
+  text-align: right;
+}

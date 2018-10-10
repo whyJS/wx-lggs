@@ -1,0 +1,9 @@
+<!--pages/order/order.wxml-->
+<view class="car">
+  <view class='car_head'>
+    <icon class='car_head_icon' color='rgb(255,255,255)' type="success" size="14"/>
+    <view class='car_head_v1' >拉勾母婴</view>
+    <image class='car_head_image' src="./imgs/right.png"></image>
+    <view class='car_head_v2'>领券</view>
+  </view>
+</view>

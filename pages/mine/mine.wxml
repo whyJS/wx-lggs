@@ -1,0 +1,69 @@
+<!--pages/mine/mine.wxml-->
+<!-- 头部未登录 -->
+<view class="m_head1">
+  <image class="m_img" src="./imgs/touxiang.png"></image>
+  <view class="m_login">
+    <view class="v1">hi~欢迎来到拉勾公社</view>
+    <view  class="v2">立即登录</view>
+  </view>
+</view>
+<view class="m_bar">
+  <view class="m_bar_v1">我的订单</view>
+  <view class="m_bar_v2">全部订单</view>
+  <image class="m_bar_v3" src='./imgs/dingdanback.png'></image>
+</view>
+<view class="m_bar2">
+  <view class="m_bar2_v1">
+    <image src="./imgs/daifukuan.png"></image>
+    <view>待付款</view>
+  </view>
+  <view class="m_bar2_v1">
+    <image src="./imgs/daishiyong.png"></image>
+    <view>待使用</view>
+  </view>
+  <view class="m_bar2_v1">
+    <image src="./imgs/daisouuo.png"></image>
+    <view>待收货</view>
+  </view>
+  <view class="m_bar2_v1">
+    <image src="./imgs/daipingjia.png"></image>
+    <view>待评价</view>
+  </view>
+  <view class="m_bar2_v1">
+    <image src="./imgs/shouhou.png"></image>
+    <view>退款/售后</view>
+  </view>
+</view>
+
+<view class="listitem">
+  <image class='list1' src="./imgs/youhuiquan.png"></image>
+  <view class='list2' >我的优惠券</view>
+  <image class='list3' src="./imgs/right.png"></image>
+</view>
+<view class="listitem">
+  <image class='list1' src="./imgs/yaoqinghaoyou.png"></image>
+  <view class='list2' >邀请好友</view>
+  <image class='list3' src="./imgs/right.png"></image>
+</view>
+<view class="listitem">
+  <image class='list1' src="./imgs/shangxueyuan.png"></image>
+  <view class='list2' >我的商学院</view>
+  <image class='list3' src="./imgs/right.png"></image>
+</view>
+<view class="listitem">
+  <image class='list1' src="./imgs/shouhuodizhi.png"></image>
+  <view class='list2' >收货地址</view>
+  <image class='list3' src="./imgs/right.png"></image>
+</view>
+<view class="listitem">
+  <image class='list1' src="./imgs/fabu.png"></image>
+  <view class='list2' >我的发布</view>
+  <image class='list3' src="./imgs/right.png"></image>
+</view>
+<view class="listitem">
+  <image class='list1' src="./imgs/yijianfankui.png"></image>
+  <view class='list2' >意见反馈</view>
+  <image class='list3' src="./imgs/right.png"></image>
+</view>
+
+
